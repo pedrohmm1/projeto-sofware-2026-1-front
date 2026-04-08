@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import LoginButton from "./LoginButton";
 import LogoutButton from "./LogoutButton";
 
-const BASE_URL_USERS = "/api/users"
-const BASE_URL_CONNECTIONS = "/api/connections";
+const BASE_URL_USERS = "/api"
+const BASE_URL_CONNECTIONS = "/api";
 
 
 export default function PessoasApp() {
